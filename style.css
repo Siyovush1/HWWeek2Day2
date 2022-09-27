@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.container{
+    width: 60%;
+    display: flex;
+    margin: auto;
+}
+.left{
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100vh;
+    padding: 15px;
+    border: 1px solid #dddddd;
+}
+.right{
+    width: 75%;
+    border: 1px solid lightgrey;
+    height: 100vh;
+    padding: 12px;
+    overflow: auto;
+
+}
+.left h4{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+.left h5{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.lefttop{
+    line-height: 1.8;
+    font-size: 20px;
+}
+.lefttop input{
+    width: 98%;
+    height: 4vh;
+    margin: 15px 0px;
+    font-size: 18px;
+}
+.lefttop button{
+    width: 99%;
+    height: 4vh;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    font-weight: 400;
+    border: none;
+}
+.leftbottom{
+    line-height: 1.8;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.leftbottom ul{
+    list-style: none;
+}
+.leftbottom a{
+    text-decoration: none;
+    color: black;
+}
+.lefttop button:hover{
+    background-color: lightgrey;
+    color: black;
+}
+.leftbottom li:hover{
+    background-color: lightgrey;
+}
+.leftbottom li{
+    padding: 15px 0px;
+    display: block;
+}
+.Ipart1{
+    width: 100%;
+}
+.Ipart1 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: rgb(24, 184, 24);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.image1{
+   opacity: 0.7;
+   width: 24%;
+   padding: 4.7px;
+   display: block;
+}
+.image1:hover{
+     opacity: 1;  
+}
+.Ipart2{
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px 0px;
+}
+.space{
+    display: flex;
+}
+.space1{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    font-weight: 100;
+    width: 50%;
+}
+.space2{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    width: 50%;
+    font-weight: 100;
+}
+.right p{
+    font-size: 18px;
+    font-weight: 0;
+}
+.right button{
+        width: 24%;
+        height: 4vh;
+        font-size: 20px;
+        background-color: green;
+        color: white;
+        font-weight: 400;
+        border: none;
+}
+.end{
+    line-height: 2;
+}
+.end input{
+    width: 98%;
+    height: 4vh;
+}
+.end2  p{
+    margin: 10px 0;
+}
+button:hover{
+    background-color: lightgrey;
+    color: black;
+    border: none;
+}
